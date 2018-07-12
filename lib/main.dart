@@ -9,9 +9,9 @@ class HomePage extends StatelessWidget {
     return AppBar(
       title: Text("Flutter"),
       actions: <Widget>[
-        Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Icon(
+        IconButton(
+          onPressed: null,
+          icon: Icon(
             Icons.edit,
             color: Colors.white,
           ),
@@ -41,5 +41,4 @@ class HomePage extends StatelessWidget {
       ),
     );
   }
-
 }
